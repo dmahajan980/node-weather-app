@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+
+<body>
+    {{>header}}
+    <p class="line">Use this page to get weather info.</p>
+    <div class="searcharea">
+        <input type="text" placeholder="Location">
+        <div class="button">Search</div>
+    </div>
+    <p class="weather"><span>Location</span>: </p>
+    <p class="weather"><span>Forecast</span>: </p>
+    {{>footer}}
+
+    <script src="./js/index.js"></script>
+    <script src="./js/search.js"></script>
+
+</body>
+
+</html>
