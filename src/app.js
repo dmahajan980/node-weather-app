@@ -4,13 +4,13 @@ const hbs = require('hbs');
 const forecast = require('./utils/forecast.js');
 const geocode = require('./utils/geocode.js');
 
+// Set up express app
 const app = express();
+const port = process.env.PORT || 3000;
 
-//  //  //  //  //  //  //  //  //  //  //  //  //  //  //  //
 // Static path setting
 const dirPath = path.join(__dirname, '../public');
 app.use(express.static(dirPath));
-//  //  //  //  //  //  //  //  //  //  //  //   //  //  //
 
 // Views path setting
 app.set('views', path.join(__dirname, '../templates/views'));
@@ -97,6 +97,6 @@ app.get('/help/*', (req, res) => {
     res.render('404', { message: 'Help articles not found' });
 })
 
-app.listen(3000, () => {
-    console.log('Server is up and running!');
+app.listen(port, () => {
+    console.log('Server is up and running on port ' + port);
 })

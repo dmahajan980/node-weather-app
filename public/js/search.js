@@ -2,7 +2,7 @@ const button = document.querySelector('.button');
 
 button.addEventListener('click', () => {
     const searchArea = document.querySelector('input').value;
-    const url = 'http://localhost:3000/weather?address=' + encodeURIComponent(searchArea);
+    const url = '/weather?address=' + encodeURIComponent(searchArea);
 
     fetch(url)
     .then(res => res.json())
