@@ -8,12 +8,11 @@ A weather checking app built on node.js (express.js). This app uses handlebars.j
    ```bash
    npm install
    ```
-3. Test/Run the application using the following command.
+3. Run the application using the following command.
    ```bash
-   node src/app.js
+   npm run start
    ```
-   Or you may first navigate to the directory.
+4. Test the application using the following command.
    ```bash
-   cd src
-   node app.js
+   npm run test
    ```
