@@ -1,6 +1,6 @@
 # Weather App
 
-A weather checking app built on node.js (express.js). This app uses handlebars.js as its template engine.
+A weather forecasting app built on node.js (express.js).
 
 ## Installation
 1. Clone or download the repository.
