@@ -16,3 +16,13 @@ A weather forecasting app built on node.js (express.js).
    ```bash
    npm run test
    ```
+
+## About this project 
+
+The Weather App allows the user to find the current weather conditions of any area. It provides the user with the temperature, precipitation percentage and the forecast.
+
+## Images 
+
+Initial Page                  |  Searched Location
+:-------------------------:|:-------------------------:
+![](screenshots/screen1.png)  |  ![](screenshots/screen2.png)
