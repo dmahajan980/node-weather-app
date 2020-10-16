@@ -16,3 +16,15 @@ A weather forecasting app built on node.js (express.js).
    ```bash
    npm run test
    ```
+
+## User Interface
+#### How to use the app
+- Type the city you are looking for
+- Click search button
+- The app show information about the location and forecast of the city
+
+![weather](screenshots/WeatherApp.gif)
+
+## APIs used
+- [Dark Sky](https://darksky.net/dev)
+- [mapbox](https://www.mapbox.com/)
