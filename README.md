@@ -1,7 +1,7 @@
 
 # Weather App
-![dock1](dock1.png?raw=true "dock1")
-![dock2](dock2.png?raw=true "dock2")
+![dock1](dock1.png?raw=true "dock1")  
+![dock2](dock2.png?raw=true "dock2")  
 
 
 A weather forecasting app built on node.js (express.js).
