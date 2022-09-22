@@ -44,13 +44,12 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-      
-      - uses: docker/build-push-action@v3
+      -
+        name: Build and push
+        uses: docker/build-push-action@v3
         with:
           push: true
           tags: user/app:latest
-      - name: Build and push
-      - run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
 
 
 
