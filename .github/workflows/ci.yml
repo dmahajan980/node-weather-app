@@ -48,5 +48,5 @@ jobs:
       - 
         name: Build the Docker image
         uses: actions/checkout@v3
-          run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+          - run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
 
