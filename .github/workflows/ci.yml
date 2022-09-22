@@ -31,7 +31,7 @@ jobs:
 
   docker:
     runs-on: ubuntu-latest
-     -
+      -
         name: Checkout 
         uses: actions/checkout@v2
       -
