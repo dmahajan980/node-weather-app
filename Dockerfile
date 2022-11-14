@@ -1,4 +1,5 @@
-FROM node:14
+# Filename: Dockerfile
+FROM node:14-alpine
 # Create app directory
 WORKDIR /usr/src/app
 # Install all dependencies
